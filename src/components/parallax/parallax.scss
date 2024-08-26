@@ -1,0 +1,89 @@
+@import "../../app.scss";
+
+.parallax {
+  width: 100%;
+  height: 100vh; // Ensure full viewport height
+  position: relative;
+  display: flex;
+  flex-direction: column;  // Stack elements vertically
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(180deg, #111132, #505064); // Default gradient for better visibility
+
+  .contentWrapper {
+    position: relative;
+    z-index: 5; // Ensure content is above background elements
+    padding: 20px; // Add some padding for spacing
+
+    // Center the content
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+
+    @include mobile {
+      font-size: 72px;
+      text-align: center;
+    }
+  }
+
+  p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #e7e5ee;  // Set text color
+    max-width: 45%;  // Limit width to avoid very wide text
+    z-index: 4;
+    padding-bottom: 150px; // Adjust padding for better view
+
+    @include mobile {
+      font-size: 18px;
+      padding: 0 10px;  // Add padding for better mobile view
+    }
+  }
+
+  .mountains {
+    background-image: url("/mountains.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+
+    @include mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .planets {
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+
+    @include mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .stars {
+    background-image: url("/stars.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+}
