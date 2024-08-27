@@ -68,6 +68,7 @@ const Hero = () => {
         variants={sliderVariants}
         initial="initial"
         animate="animate"
+        style={{userSelect: "none"}}
       >
         Empower Ideas
       </motion.div>
