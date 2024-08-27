@@ -7,7 +7,10 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
-import DevelopmentTeam from "./components/teams/DevelopmentTeam"; // Import the new Teams component
+import DevelopmentTeam from "./components/teams/DevelopmentTeam";
+import Feature from "./components/feature/Feature";
+
+
 
 const App = () => {
   return (
@@ -27,12 +30,19 @@ const App = () => {
         <Parallax type="portfolio" />
       </section>
       <Portfolio />
-      <section id="DevelopmentTeam"> {/* Add the Teams section here */}
+      <section id="Feature">
+        <Feature />
+      </section>
+      
+      
+      <section id="DevelopmentTeam">
         <DevelopmentTeam />
       </section>
+    
       <section id="Contact">
         <Contact />
       </section>
+
       {/* Framer Motion Crash Course */}
       {/* <Test/>
       <Test/> */}
