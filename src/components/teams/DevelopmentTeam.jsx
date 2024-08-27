@@ -27,8 +27,8 @@ const DevelopmentTeam = () => {
       <div className="container mx-auto py-10">
         <h1 className="text-8xl font-bold text-center mb-10">Development Team</h1>
         <div className="flex flex-wrap justify-center gap-10">
-          <DevelopmentComponent name="Sai" role="Developer" image="atch.jpg" /> 
-          <DevelopmentComponent name="NagaHarish" role="Developer" image="nag.jpg" />
+          <DevelopmentComponent name="Atchaya" role="Developer" image="atch.jpg" /> 
+          <DevelopmentComponent name="Naga Harish" role="Developer" image="nag.jpg" />
         </div>
       </div>
     </div>
