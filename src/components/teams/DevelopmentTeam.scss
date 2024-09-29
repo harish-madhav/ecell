@@ -1,0 +1,135 @@
+.container{
+  max-width: 1500px;
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.dark\:bg-gray-900 {
+  background-color: #0c0c1d;
+}
+
+.text-gray-900 {
+  color: #8e98ab;
+}
+
+.dark\:text-white {
+  color: #ffffff;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.dark\:bg-gray-800 {
+  background-color: #080808;
+}
+
+.text-gray-600 {
+  color: #4e5662;
+}
+
+.dark\:text-gray-400 {
+  color: #eff1f3;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.text-blue-500 {
+  color: #1a5f98;
+}
+
+.text-blue-700 {
+  color: #2b6cb0;
+}
+
+.rounded-lg {
+  border-radius: 1rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.p-6 {
+  padding: 5rem;
+}
+
+.text-xl {
+  font-size: 1.5rem; // Increased font size
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: rem;
+}
+
+.mb-10 {
+  margin-bottom: 5rem; // Adjusted for better spacing
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-10 {
+  gap: 3rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+  font-size: px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.development-team-box {
+  flex: 1 1 300px; // Allow boxes to grow and shrink
+  max-width: 400px; // Ensure boxes don’t get too wide
+}
+.text-8xl {
+  font-size: 5rem; /* Example increased font size */
+}
+
+.font-bold {
+  font-weight: 0; /* Ensures bold text */
+}
+
+.text-center {
+  text-align: center; /* Centers text horizontally */
+}
+
+.mb-10 {
+  margin-bottom: 5rem; /* Adds bottom margin */
+}
